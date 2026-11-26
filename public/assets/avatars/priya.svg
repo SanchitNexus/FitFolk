@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B" />
+      <stop offset="100%" stop-color="#FFE66D" />
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8A87C" />
+      <stop offset="100%" stop-color="#D68B5B" />
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2C1B18" />
+      <stop offset="100%" stop-color="#1A0F0D" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg)" />
+  
+  <!-- Torso & Athletic Top -->
+  <path d="M45,200 C45,155 70,140 100,140 C130,140 155,155 155,200 Z" fill="#2D3748" />
+  <path d="M75,155 Q100,175 125,155 L130,200 L70,200 Z" fill="#FF4757" />
+  
+  <!-- Neck -->
+  <rect x="88" y="115" width="24" height="32" rx="6" fill="url(#skin)" />
+  <path d="M88,128 C95,133 105,133 112,128 L112,138 L88,138 Z" fill="#C27A4E" opacity="0.3" />
+  
+  <!-- Back Ponytail -->
+  <path d="M110,65 C145,60 160,95 150,130 C140,115 135,100 120,90 Z" fill="url(#hair)" />
+  
+  <!-- Head & Ears -->
+  <circle cx="68" cy="98" r="9" fill="url(#skin)" />
+  <circle cx="132" cy="98" r="9" fill="url(#skin)" />
+  <circle cx="68" cy="98" r="3" fill="#C27A4E" opacity="0.5" />
+  <circle cx="132" cy="98" r="3" fill="#C27A4E" opacity="0.5" />
+  
+  <ellipse cx="100" cy="95" rx="33" ry="38" fill="url(#skin)" />
+  
+  <!-- Hair & Athletic Headband -->
+  <path d="M67,82 C67,52 82,45 100,45 C118,45 133,52 133,82 C125,75 115,72 100,72 C85,72 75,75 67,82 Z" fill="url(#hair)" />
+  <!-- Vibrant Headband -->
+  <path d="M67,78 C76,68 124,68 133,78 L131,84 C120,76 80,76 69,84 Z" fill="#00D2D3" />
+  
+  <!-- Eyebrows -->
+  <path d="M78,85 Q88,81 94,86" stroke="#1A0F0D" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M106,86 Q112,81 122,85" stroke="#1A0F0D" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  
+  <!-- Eyes -->
+  <ellipse cx="86" cy="93" rx="4.5" ry="5.5" fill="#1A0F0D" />
+  <ellipse cx="114" cy="93" rx="4.5" ry="5.5" fill="#1A0F0D" />
+  <circle cx="88" cy="91" r="1.5" fill="#FFFFFF" />
+  <circle cx="116" cy="91" r="1.5" fill="#FFFFFF" />
+  
+  <!-- Nose -->
+  <path d="M98,97 Q100,105 103,105" stroke="#C27A4E" stroke-width="2" stroke-linecap="round" fill="none" />
+  
+  <!-- Smile -->
+  <path d="M88,114 Q100,125 112,114" stroke="#8C3B2E" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M91,114 Q100,121 109,114 Z" fill="#FFFFFF" />
+  <!-- Cheek Glow -->
+  <circle cx="78" cy="104" r="5" fill="#FF4757" opacity="0.25" />
+  <circle cx="122" cy="104" r="5" fill="#FF4757" opacity="0.25" />
+</svg>

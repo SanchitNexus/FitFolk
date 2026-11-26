@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-alex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#065F46" />
+    </linearGradient>
+    <linearGradient id="skin-alex" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E2A774" />
+      <stop offset="100%" stop-color="#C2824C" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg-alex)" />
+  
+  <!-- Mindful Posture & Earth-Tone Yoga Tank -->
+  <path d="M42,200 C42,154 68,140 100,140 C132,140 158,154 158,200 Z" fill="#374151" />
+  <path d="M76,154 Q100,174 124,154 L128,200 L72,200 Z" fill="#4B5563" />
+  
+  <!-- Wooden Mala Bead Necklace -->
+  <path d="M80,142 C82,166 100,174 100,174 C100,174 118,166 120,142" stroke="#92400E" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 4" fill="none" />
+  <circle cx="100" cy="174" r="3.5" fill="#D97706" />
+  
+  <!-- Neck -->
+  <rect x="88" y="112" width="24" height="32" rx="6" fill="url(#skin-alex)" />
+  
+  <!-- Head & Ears -->
+  <circle cx="68" cy="94" r="8" fill="url(#skin-alex)" />
+  <circle cx="132" cy="94" r="8" fill="url(#skin-alex)" />
+  <ellipse cx="100" cy="92" rx="32" ry="36" fill="url(#skin-alex)" />
+  
+  <!-- Wavy flowing brown hair -->
+  <path d="M68,76 C66,42 80,34 100,34 C120,34 134,42 132,76 C124,62 110,58 100,58 C86,58 76,64 68,76 Z" fill="#451A03" />
+  <path d="M66,74 C64,95 68,110 72,118 C68,105 66,90 68,74 Z" fill="#451A03" />
+  <path d="M134,74 C136,95 132,110 128,118 C132,105 134,90 132,74 Z" fill="#451A03" />
+  
+  <!-- Calm Gentle Eyebrows -->
+  <path d="M78,80 Q86,76 94,80" stroke="#451A03" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M106,80 Q114,76 122,80" stroke="#451A03" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  
+  <!-- Serene Mindful Eyes (Warm peaceful gaze) -->
+  <path d="M80,87 Q86,92 92,87" stroke="#1F2937" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M108,87 Q114,92 120,87" stroke="#1F2937" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  
+  <!-- Nose -->
+  <path d="M98,91 Q100,98 103,98" stroke="#9A5623" stroke-width="2" stroke-linecap="round" fill="none" />
+  
+  <!-- Peaceful Mindful Smile -->
+  <path d="M88,108 Q100,118 112,108" stroke="#78350F" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <!-- Neat groomed light stubble -->
+  <path d="M82,104 Q100,122 118,104 Q100,118 82,104 Z" fill="#451A03" opacity="0.2" />
+</svg>

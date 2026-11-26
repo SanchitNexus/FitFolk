@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-mike" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DC2626" />
+      <stop offset="100%" stop-color="#7F1D1D" />
+    </linearGradient>
+    <linearGradient id="skin-mike" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg-mike)" />
+  
+  <!-- Broad Coach Shoulders & Team Polo -->
+  <path d="M28,200 C28,150 60,132 100,132 C140,132 172,150 172,200 Z" fill="#0F172A" />
+  <path d="M80,146 L100,174 L120,146 Z" fill="#1E293B" />
+  
+  <!-- Red Whistle Lanyard & Silver Whistle -->
+  <path d="M78,142 C74,180 88,194 100,194 C112,194 126,180 122,142" stroke="#EF4444" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M96,188 L104,188 L104,196 L96,196 Z" fill="#E2E8F0" stroke="#475569" stroke-width="1.5" />
+  
+  <!-- Thick Coach Neck -->
+  <rect x="85" y="108" width="30" height="34" rx="7" fill="#FDE68A" />
+  
+  <!-- Strong Jaw & Head -->
+  <path d="M68,76 C68,52 82,46 100,46 C118,46 132,52 132,76 L132,96 C132,118 116,126 100,126 C84,126 68,118 68,96 Z" fill="#FDE68A" />
+  
+  <!-- Ears -->
+  <circle cx="66" cy="90" r="8.5" fill="#FDE68A" />
+  <circle cx="134" cy="90" r="8.5" fill="#FDE68A" />
+  
+  <!-- Backwards Athletic Baseball Cap -->
+  <path d="M66,68 C66,40 80,32 100,32 C120,32 134,40 134,68 Z" fill="#0F172A" />
+  <!-- Cap snapback strap and seam -->
+  <rect x="84" y="62" width="32" height="9" rx="3" fill="#1E293B" stroke="#475569" stroke-width="1" />
+  <ellipse cx="100" cy="32" rx="4" ry="2" fill="#DC2626" />
+  
+  <!-- Eyebrows (Commanding coach glare) -->
+  <path d="M76,78 Q86,72 95,77" stroke="#1E293B" stroke-width="4" stroke-linecap="round" fill="none" />
+  <path d="M105,77 Q114,72 124,78" stroke="#1E293B" stroke-width="4" stroke-linecap="round" fill="none" />
+  
+  <!-- Piercing Sharp Eyes -->
+  <ellipse cx="86" cy="85" rx="4.5" ry="4" fill="#0F172A" />
+  <ellipse cx="114" cy="85" rx="4.5" ry="4" fill="#0F172A" />
+  <circle cx="87.5" cy="84" r="1.5" fill="#FFFFFF" />
+  <circle cx="115.5" cy="84" r="1.5" fill="#FFFFFF" />
+  
+  <!-- Chiseled Nose -->
+  <path d="M100,82 L97,97 L104,97" stroke="#B45309" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- Confident Determined Smile -->
+  <path d="M87,110 Q100,116 113,110" stroke="#78350F" stroke-width="3" stroke-linecap="round" fill="none" />
+  <!-- Coach 5 O'clock Shadow -->
+  <path d="M76,100 C84,122 116,122 124,100 C116,114 84,114 76,100 Z" fill="#0F172A" opacity="0.18" />
+</svg>

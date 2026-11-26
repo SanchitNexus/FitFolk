@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   FitFolk — Instagram Design System & Dynamic Theme Variables
+   ============================================================ */
+
+:root {
+  /* Instagram Light Mode */
+  --color-bg: 255 255 255;             /* Pure White #FFFFFF */
+  --color-surface: 255 255 255;        /* Pure White #FFFFFF */
+  --color-elevated: 250 250 250;       /* Light Gray Surface #FAFAFA */
+  --color-border: 219 219 219;         /* Signature IG Divider #DBDBDB */
+  --color-text-primary: 38 38 38;      /* IG Deep Charcoal #262626 */
+  --color-text-secondary: 115 115 115; /* IG Caption Gray #737373 */
+  --color-accent: 0 149 246;           /* Instagram Action Blue #0095F6 */
+  --color-accent-dim: rgba(0, 149, 246, 0.12);
+  --scrollbar-thumb: #DBDBDB;
+}
+
+.dark {
+  /* Instagram Dark Mode (Pure OLED Black) */
+  --color-bg: 0 0 0;                   /* Pure OLED Black #000000 */
+  --color-surface: 18 18 18;           /* IG Dark Surface #121212 */
+  --color-elevated: 38 38 38;          /* IG Dark Popover #262626 */
+  --color-border: 38 38 38;            /* IG Dark Divider #262626 */
+  --color-text-primary: 245 245 245;   /* IG Bright White #F5F5F5 */
+  --color-text-secondary: 168 168 168; /* IG Muted Gray #A8A8A8 */
+  --color-accent: 0 149 246;           /* Instagram Action Blue #0095F6 */
+  --color-accent-dim: rgba(0, 149, 246, 0.22);
+  --scrollbar-thumb: #363636;
+}
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) transparent;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 3px;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background: #8E8E8E;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased selection:bg-[#0095F6] selection:text-white;
+    background-color: rgb(var(--color-bg));
+    color: rgb(var(--color-text-primary));
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer components {
+  /* Instagram Signature Blue Action Button */
+  .btn-primary {
+    @apply bg-brand-accent text-white font-semibold px-4 py-2 rounded-lg 
+           hover:bg-[#1877F2] active:scale-[0.98] transition-all duration-150
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent focus-visible:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed shadow-sm;
+  }
+
+  /* Instagram Secondary / Outline Button */
+  .btn-secondary {
+    @apply bg-brand-elevated text-brand-text-primary border border-brand-border px-4 py-2 rounded-lg 
+           hover:bg-brand-surface active:scale-[0.98] transition-all duration-150 font-semibold
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent focus-visible:ring-offset-2;
+  }
+
+  .btn-ghost {
+    @apply text-brand-text-secondary px-3 py-2 rounded-lg 
+           hover:bg-brand-surface hover:text-brand-text-primary transition-all duration-150
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent;
+  }
+
+  .btn-danger {
+    @apply bg-brand-error/10 text-brand-error px-4 py-2 rounded-lg 
+           hover:bg-brand-error/20 active:scale-[0.98] transition-all duration-150 font-semibold
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-error;
+  }
+
+  .card {
+    @apply bg-brand-surface border border-brand-border rounded-xl p-4;
+  }
+
+  .card-elevated {
+    @apply bg-brand-elevated border border-brand-border rounded-xl p-4;
+  }
+
+  .input-field {
+    @apply w-full bg-brand-surface border border-brand-border rounded-lg px-4 py-2.5
+           text-brand-text-primary placeholder:text-brand-text-secondary/60
+           focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent
+           transition-all duration-150;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-accent {
+    @apply badge bg-brand-accent/15 text-brand-accent font-semibold;
+  }
+
+  .badge-verified {
+    @apply badge bg-[#0095F6]/15 text-[#0095F6] font-semibold;
+  }
+
+  .nav-link {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-xl text-brand-text-secondary
+           hover:bg-brand-elevated hover:text-brand-text-primary transition-all duration-150
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent;
+  }
+
+  .nav-link-active {
+    @apply nav-link bg-brand-elevated text-brand-text-primary font-bold;
+  }
+
+  .tab-btn {
+    @apply px-4 py-2 text-sm font-semibold text-brand-text-secondary border-b-2 border-transparent
+           hover:text-brand-text-primary hover:border-brand-border transition-all duration-150;
+  }
+
+  .tab-btn-active {
+    @apply tab-btn text-brand-text-primary border-brand-text-primary font-bold;
+  }
+
+  .skeleton {
+    @apply animate-pulse bg-brand-border rounded;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Instagram Signature Gradient Utilities */
+  .ig-gradient-text {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .ig-gradient-bg {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  }
+
+  .ig-story-ring {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

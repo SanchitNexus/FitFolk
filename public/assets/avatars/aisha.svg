@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-aisha" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0E7490" />
+    </linearGradient>
+    <linearGradient id="skin-aisha" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8D5524" />
+      <stop offset="100%" stop-color="#673D17" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg-aisha)" />
+  
+  <!-- Running Singlet with Reflective Strip -->
+  <path d="M44,200 C44,154 70,140 100,140 C130,140 156,154 156,200 Z" fill="#0F172A" />
+  <path d="M72,154 Q100,174 128,154 L132,200 L68,200 Z" fill="#06B6D4" />
+  <line x1="100" y1="165" x2="100" y2="200" stroke="#F8FAFC" stroke-width="3" stroke-dasharray="4 3" />
+  
+  <!-- Lean Runner Neck -->
+  <rect x="89" y="114" width="22" height="30" rx="5" fill="url(#skin-aisha)" />
+  
+  <!-- Head & Ears -->
+  <circle cx="68" cy="96" r="8" fill="url(#skin-aisha)" />
+  <circle cx="132" cy="96" r="8" fill="url(#skin-aisha)" />
+  <ellipse cx="100" cy="94" rx="31" ry="35" fill="url(#skin-aisha)" />
+  
+  <!-- Aerodynamic Running Visor / Cap -->
+  <path d="M68,78 C68,48 82,42 100,42 C118,42 132,48 132,78 Z" fill="#0F172A" />
+  <!-- Visor Brim -->
+  <path d="M58,74 Q100,60 142,74 L146,80 Q100,66 54,80 Z" fill="#14B8A6" />
+  <!-- Sunglass band resting on cap -->
+  <path d="M72,60 Q100,50 128,60" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" fill="none" />
+  
+  <!-- Eyebrows -->
+  <path d="M78,82 Q86,78 94,82" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M106,82 Q114,78 122,82" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  
+  <!-- Laser-focused marathon eyes -->
+  <ellipse cx="86" cy="89" rx="4.5" ry="4.5" fill="#0F172A" />
+  <ellipse cx="114" cy="89" rx="4.5" ry="4.5" fill="#0F172A" />
+  <circle cx="87.5" cy="87.5" r="1.5" fill="#FFFFFF" />
+  <circle cx="115.5" cy="87.5" r="1.5" fill="#FFFFFF" />
+  
+  <!-- Nose -->
+  <path d="M98,94 Q100,101 103,101" stroke="#502C0F" stroke-width="2" stroke-linecap="round" fill="none" />
+  
+  <!-- Calm Determined Smile -->
+  <path d="M89,112 Q100,121 111,112" stroke="#502C0F" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M92,112 Q100,118 108,112 Z" fill="#FFFFFF" />
+</svg>

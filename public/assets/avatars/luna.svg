@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-luna" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#4C1D95" />
+    </linearGradient>
+    <linearGradient id="skin-luna" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg-luna)" />
+  
+  <!-- High Powerlifter Topknot / Samurai Bun -->
+  <circle cx="100" cy="30" r="16" fill="#18181B" />
+  
+  <!-- Strong Powerlifting Traps & Red Competition Singlet -->
+  <path d="M30,200 C30,152 62,134 100,134 C138,134 170,152 170,200 Z" fill="#FDE68A" />
+  <!-- Red Singlet Straps -->
+  <path d="M56,200 L68,142 C82,152 118,152 132,142 L144,200 Z" fill="#DC2626" />
+  <path d="M78,158 Q100,172 122,158 L126,200 L74,200 Z" fill="#991B1B" />
+  
+  <!-- Neck -->
+  <rect x="87" y="110" width="26" height="34" rx="6" fill="#FDE68A" />
+  
+  <!-- Head & Ears -->
+  <circle cx="68" cy="94" r="8" fill="#FDE68A" />
+  <circle cx="132" cy="94" r="8" fill="#FDE68A" />
+  <ellipse cx="100" cy="92" rx="32" ry="36" fill="#FDE68A" />
+  
+  <!-- Hair: Sleek black powerlifting pull-back with side strands -->
+  <path d="M68,76 C68,44 82,38 100,38 C118,38 132,44 132,76 C124,66 112,62 100,62 C88,62 76,66 68,76 Z" fill="#18181B" />
+  
+  <!-- Sharp Arch Eyebrows -->
+  <path d="M77,79 Q86,72 95,78" stroke="#18181B" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M105,78 Q114,72 123,79" stroke="#18181B" stroke-width="3" stroke-linecap="round" fill="none" />
+  
+  <!-- Fierce Confident Eyes -->
+  <ellipse cx="86" cy="86" rx="4.5" ry="4.5" fill="#18181B" />
+  <ellipse cx="114" cy="86" rx="4.5" ry="4.5" fill="#18181B" />
+  <circle cx="87.5" cy="84.5" r="1.5" fill="#FFFFFF" />
+  <circle cx="115.5" cy="84.5" r="1.5" fill="#FFFFFF" />
+  
+  <!-- Nose -->
+  <path d="M98,90 Q100,98 103,98" stroke="#B45309" stroke-width="2" stroke-linecap="round" fill="none" />
+  
+  <!-- Smirk of pure strength -->
+  <path d="M88,109 Q100,117 114,107" stroke="#991B1B" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M91,109 Q100,114 111,107 Z" fill="#FFFFFF" />
+</svg>

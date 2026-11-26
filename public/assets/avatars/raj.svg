@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-raj" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="skin-raj" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C68642" />
+      <stop offset="100%" stop-color="#A5632A" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg-raj)" />
+  
+  <!-- Nutritionist Polo Collar & Shoulders -->
+  <path d="M42,200 C42,152 70,138 100,138 C130,138 158,152 158,200 Z" fill="#1E293B" />
+  <path d="M85,150 L100,172 L115,150 Z" fill="#F8FAFC" />
+  <!-- Nutrition leaf icon on polo -->
+  <path d="M125,168 C125,160 133,160 133,168 C133,172 125,172 125,168 Z" fill="#10B981" />
+  
+  <!-- Neck -->
+  <rect x="87" y="112" width="26" height="32" rx="6" fill="url(#skin-raj)" />
+  <path d="M87,125 C94,130 106,130 113,125 L113,136 L87,136 Z" fill="#8C4A16" opacity="0.3" />
+  
+  <!-- Head & Ears -->
+  <circle cx="67" cy="94" r="8.5" fill="url(#skin-raj)" />
+  <circle cx="133" cy="94" r="8.5" fill="url(#skin-raj)" />
+  <ellipse cx="100" cy="92" rx="33" ry="37" fill="url(#skin-raj)" />
+  
+  <!-- Hair: Thick dark wavy side part -->
+  <path d="M67,75 C67,46 80,38 100,38 C120,38 133,46 133,75 C124,62 112,58 100,58 C85,58 75,64 67,75 Z" fill="#0F172A" />
+  <path d="M72,52 C85,42 115,44 128,52 C118,48 95,48 72,52 Z" fill="#1E293B" />
+  
+  <!-- Eyebrows -->
+  <path d="M76,78 Q86,74 94,78" stroke="#0F172A" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M106,78 Q114,74 124,78" stroke="#0F172A" stroke-width="3" stroke-linecap="round" fill="none" />
+  
+  <!-- Modern Stylish Glasses -->
+  <rect x="74" y="80" width="22" height="17" rx="4" fill="none" stroke="#0F172A" stroke-width="2.5" />
+  <rect x="104" y="80" width="22" height="17" rx="4" fill="none" stroke="#0F172A" stroke-width="2.5" />
+  <line x1="96" y1="88" x2="104" y2="88" stroke="#0F172A" stroke-width="2.5" />
+  <line x1="68" y1="86" x2="74" y2="86" stroke="#0F172A" stroke-width="2" />
+  <line x1="126" y1="86" x2="132" y2="86" stroke="#0F172A" stroke-width="2" />
+  
+  <!-- Eyes behind lenses -->
+  <ellipse cx="85" cy="88" rx="4" ry="4.5" fill="#0F172A" />
+  <ellipse cx="115" cy="88" rx="4" ry="4.5" fill="#0F172A" />
+  <circle cx="86.5" cy="86.5" r="1.5" fill="#FFFFFF" />
+  <circle cx="116.5" cy="86.5" r="1.5" fill="#FFFFFF" />
+  
+  <!-- Nose -->
+  <path d="M98,92 Q100,100 103,100" stroke="#8C4A16" stroke-width="2.2" stroke-linecap="round" fill="none" />
+  
+  <!-- Friendly Welcoming Smile -->
+  <path d="M87,110 Q100,123 113,110" stroke="#682F07" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M90,110 Q100,118 110,110 Z" fill="#FFFFFF" />
+  <!-- Neat trimmed beard line -->
+  <path d="M80,105 Q100,128 120,105 Q100,122 80,105 Z" fill="#0F172A" opacity="0.3" />
+</svg>

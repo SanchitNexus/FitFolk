@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-zoe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#881337" />
+    </linearGradient>
+    <linearGradient id="skin-zoe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5A67B" />
+      <stop offset="100%" stop-color="#C77D4A" />
+    </linearGradient>
+    <linearGradient id="hair-zoe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#311B14" />
+      <stop offset="100%" stop-color="#190C08" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg-zoe)" />
+  
+  <!-- High Curly Ponytail Spillover -->
+  <circle cx="130" cy="52" r="24" fill="url(#hair-zoe)" />
+  <circle cx="145" cy="65" r="20" fill="url(#hair-zoe)" />
+  <circle cx="148" cy="85" r="18" fill="url(#hair-zoe)" />
+  
+  <!-- Athletic Shoulders & Neon Purple/Pink Dance Tank -->
+  <path d="M42,200 C42,154 68,138 100,138 C132,138 158,154 158,200 Z" fill="#9333EA" />
+  <path d="M72,154 Q100,174 128,154 L132,200 L68,200 Z" fill="#EC4899" />
+  
+  <!-- Neck -->
+  <rect x="88" y="112" width="24" height="32" rx="6" fill="url(#skin-zoe)" />
+  
+  <!-- Head & Ears -->
+  <circle cx="68" cy="94" r="8" fill="url(#skin-zoe)" />
+  <circle cx="132" cy="94" r="8" fill="url(#skin-zoe)" />
+  <!-- Gold Hoop Earrings -->
+  <circle cx="67" cy="101" r="7" fill="none" stroke="#FBBF24" stroke-width="2.5" />
+  <circle cx="133" cy="101" r="7" fill="none" stroke="#FBBF24" stroke-width="2.5" />
+  
+  <ellipse cx="100" cy="92" rx="32" ry="36" fill="url(#skin-zoe)" />
+  
+  <!-- Curly Hair Outline around Forehead -->
+  <path d="M68,78 C68,46 82,38 100,38 C118,38 132,46 132,78 C122,68 112,64 100,64 C86,64 76,68 68,78 Z" fill="url(#hair-zoe)" />
+  <!-- Neon scrunchie for ponytail -->
+  <ellipse cx="120" cy="50" rx="8" ry="12" fill="#F43F5E" />
+  
+  <!-- Eyebrows -->
+  <path d="M78,80 Q86,75 94,80" stroke="#190C08" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M106,80 Q114,75 122,80" stroke="#190C08" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  
+  <!-- Eyes with vibrant joyful expression -->
+  <ellipse cx="86" cy="87" rx="4.5" ry="5" fill="#190C08" />
+  <ellipse cx="114" cy="87" rx="4.5" ry="5" fill="#190C08" />
+  <circle cx="87.5" cy="85.5" r="1.5" fill="#FFFFFF" />
+  <circle cx="115.5" cy="85.5" r="1.5" fill="#FFFFFF" />
+  
+  <!-- Nose -->
+  <path d="M98,92 Q100,99 103,99" stroke="#A75D2B" stroke-width="2" stroke-linecap="round" fill="none" />
+  
+  <!-- Big Radiant Dancer Smile -->
+  <path d="M86,108 Q100,125 114,108" stroke="#9F1239" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M89,108 Q100,121 111,108 Z" fill="#FFFFFF" />
+  <!-- Rosy Cheeks -->
+  <circle cx="78" cy="98" r="6" fill="#F43F5E" opacity="0.3" />
+  <circle cx="122" cy="98" r="6" fill="#F43F5E" opacity="0.3" />
+</svg>

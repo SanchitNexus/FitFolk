@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-demo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient id="glow-demo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A3FF12" />
+      <stop offset="100%" stop-color="#22C55E" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg-demo)" />
+  <circle cx="100" cy="100" r="92" fill="none" stroke="url(#glow-demo)" stroke-width="4" stroke-dasharray="8 6" />
+  
+  <!-- FitFolk Lightning & Winged Flame Emblem -->
+  <!-- Winged Figure Silhouette -->
+  <circle cx="100" cy="65" r="20" fill="url(#glow-demo)" />
+  <path d="M70,140 C70,105 82,92 100,92 C118,92 130,105 130,140 Z" fill="url(#glow-demo)" />
+  
+  <!-- Electric Lightning Accent -->
+  <path d="M102,96 L88,124 L98,124 L94,152 L116,118 L104,118 Z" fill="#FFFFFF" />
+  
+  <!-- Dumbbell Accent -->
+  <rect x="52" y="162" width="96" height="8" rx="4" fill="#27272A" />
+  <rect x="96" y="158" width="8" height="16" rx="2" fill="url(#glow-demo)" />
+  <circle cx="56" cy="166" r="12" fill="url(#glow-demo)" />
+  <circle cx="144" cy="166" r="12" fill="url(#glow-demo)" />
+</svg>

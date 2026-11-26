@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-marcus" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ECDC4" />
+      <stop offset="100%" stop-color="#2C3E50" />
+    </linearGradient>
+    <linearGradient id="skin-marcus" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F2C5A0" />
+      <stop offset="100%" stop-color="#DF9F6D" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg-marcus)" />
+  
+  <!-- Wide Muscular Traps & Tank Top -->
+  <path d="M20,200 C20,150 55,128 100,128 C145,128 180,150 180,200 Z" fill="url(#skin-marcus)" />
+  <!-- Black Ribbed Gym Stringer Tank -->
+  <path d="M55,200 L65,145 C80,155 120,155 135,145 L145,200 Z" fill="#18181B" />
+  <path d="M78,160 Q100,172 122,160 L125,200 L75,200 Z" fill="#27272A" />
+  
+  <!-- Thick Neck -->
+  <rect x="84" y="105" width="32" height="36" rx="8" fill="url(#skin-marcus)" />
+  <path d="M84,120 C92,126 108,126 116,120 L116,132 L84,132 Z" fill="#C27A4E" opacity="0.3" />
+  
+  <!-- Strong Jaw & Head -->
+  <path d="M68,75 C68,52 82,45 100,45 C118,45 132,52 132,75 L132,95 C132,118 116,126 100,126 C84,126 68,118 68,95 Z" fill="url(#skin-marcus)" />
+  
+  <!-- Ears -->
+  <circle cx="66" cy="88" r="9" fill="url(#skin-marcus)" />
+  <circle cx="134" cy="88" r="9" fill="url(#skin-marcus)" />
+  
+  <!-- Hair: Clean fade crew cut with texture -->
+  <path d="M68,70 C68,42 80,36 100,36 C120,36 132,42 132,70 C125,60 115,56 100,56 C85,56 75,60 68,70 Z" fill="#111827" />
+  <path d="M66,68 L70,82 L73,72 Z" fill="#111827" />
+  <path d="M134,68 L130,82 L127,72 Z" fill="#111827" />
+  
+  <!-- Strong Eyebrows -->
+  <path d="M76,78 Q88,73 95,78" stroke="#111827" stroke-width="4" stroke-linecap="round" fill="none" />
+  <path d="M105,78 Q112,73 124,78" stroke="#111827" stroke-width="4" stroke-linecap="round" fill="none" />
+  
+  <!-- Determined Eyes -->
+  <ellipse cx="85" cy="86" rx="5" ry="4" fill="#111827" />
+  <ellipse cx="115" cy="86" rx="5" ry="4" fill="#111827" />
+  <circle cx="87" cy="85" r="1.5" fill="#FFFFFF" />
+  <circle cx="117" cy="85" r="1.5" fill="#FFFFFF" />
+  
+  <!-- Chiseled Nose -->
+  <path d="M100,82 L97,98 L104,98" stroke="#B87346" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- Firm Confident Mouth -->
+  <path d="M88,110 Q100,113 112,110" stroke="#78350F" stroke-width="3" stroke-linecap="round" fill="none" />
+  <!-- Stubble Shadow -->
+  <path d="M78,102 C85,122 115,122 122,102 C115,116 85,116 78,102 Z" fill="#111827" opacity="0.12" />
+</svg>
