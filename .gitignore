@@ -12,14 +12,15 @@ dist-ssr/
 .vite-temp/
 *.tsbuildinfo
 
-# Large binaries & tools
+# Uploads and temporary assets
+public/uploads/
+server-data.json
+tunnel-url.json
 tools/
 *.exe
 
-# Runtime generated files
-tunnel-url.json
-
-# Logs & temp
+# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -28,15 +29,10 @@ pnpm-debug.log*
 # Environment files
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*.local
 
-# Editor & OS
+# Editor & OS files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Server runtime data
-server-data.json
